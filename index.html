@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--STYLE-->
+    <link rel="stylesheet" href="common.blocks/content.css"/>
+    <link rel="stylesheet" href="common.blocks/title/title.css"/>
+    <link rel="stylesheet" href="common.blocks/form/form.css"/>
+    <!--MEDIA-->
+    <link rel="stylesheet" href="common.blocks/all-media.css"/>
+</head>
+<body>
+<section class="content">
+    <!--LEFT SIDE-->
+    <div class="title">
+        <div class="title__text-block">
+            <h1 class="title__header">Welcome Page</h1>
+            <h3 class="title__description">Sign in to continue access pages</h3>
+        </div>
+        <div class="shopping-card">
+            <img src="img/shopping_cart.png" alt="" class="shopping-card__img"/>
+        </div>
+        <div class="title__squares">
+            <div class="title__squares-block_left">
+                <div class="title__squares-block_top"></div>
+                <div class="title__squares-block_bottom"></div>
+            </div>
+            <div class="title__squares-block_right">
+                <div class="title__squares-block_top"></div>
+                <div class="title__squares-block_bottom"></div>
+            </div>
+        </div>
+    </div>
+    <!--RIGHT SIDE (FORM)-->
+    <form class="form">
+        <div class="form__inner form__title">
+            <h2 class="form__title_header">Sign In</h2>
+            <h3 class="form__title_description">Sign in to continue access pages</h3>
+        </div>
+        <div class="form__inner form__inputs">
+            <div>
+                <input type="email" name="E-mail" class="form__input form__input_email" placeholder="Email Address"/>
+                    <span class="form__input_alert">Please write a right E-mail address</span>
+            </div>
+            <div>
+                <input type="password" name="password" class="form__input form__input_password form__input_password_disable" placeholder="Password" disabled>
+            </div>
+            <div>
+                <button class="form__input form__input_submit">continue</button>
+            </div>
+        </div>
+        <div class="form__inner continue-divider">
+            <p class="continue-divider__text">or Connect with Social Media</p>
+        </div>
+        <div class="form__inner form__socialLogin">
+            <button class="form__socialLogin_button form__socialLogin_button_twitter">
+                <img src="img/twitter.png" class="form__socialLogin_icon" alt=""> Sign In With Twitter
+            </button>
+            <button class="form__socialLogin_button form__socialLogin_button_facebook">
+                <img src="img/facebook.png" class="form__socialLogin_icon" alt=""> Sign In With Facebook
+            </button>
+        </div>
+    </form>
+</section>
+
+<!--SCRIPTS-->
+<script src="common.blocks/form/form.js"></script>
+</body>
+</html>

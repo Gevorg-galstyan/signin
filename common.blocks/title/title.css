@@ -1,0 +1,102 @@
+.title{
+    position: relative;
+    max-width: 53%;
+    flex: 0 0 53%;
+    height: 100%;
+    overflow: hidden;
+}
+.title__squares-block_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 43px;
+    overflow: hidden;
+}
+.title__squares-block_right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.title__squares-block_left .title__squares-block_top{
+    position: relative;
+    width: 392px;
+    height: 373px;
+    right: 94px;
+    bottom: 47px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 55px;
+}
+.title__squares-block_left .title__squares-block_bottom{
+    position: relative;
+    width: 232px;
+    height: 247px;
+    right: 59px;
+    bottom: 242px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 55px;
+}
+.title__squares-block_right .title__squares-block_top{
+    position: relative;
+    width: 392px;
+    height: 373px;
+    bottom: -226px;
+    right: -263px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 55px;
+}
+.title__squares-block_right .title__squares-block_bottom{
+    position: relative;
+    width: 260px;
+    height: 279px;
+    bottom: -64px;
+    right: -93px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 55px;
+}
+.title__header{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.4727272093296051px;
+    color: #ffffff;
+}
+.title__description{
+
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.47999998927116394px;
+    color: #ffffff;
+
+}
+.title__text-block{
+    position: relative;
+    margin-left: 76px;
+    top: 444px;
+    z-index: 2;
+}
+/*SHOPPING CARD*/
+.shopping-card{
+    position: absolute;
+    right: 58px;
+    top: 96px;
+    text-align: right;
+    z-index: 2;
+}
+.shopping-card__img{
+    width: 125px;
+    height: 125px;
+}

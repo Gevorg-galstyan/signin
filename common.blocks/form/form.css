@@ -1,0 +1,216 @@
+.form {
+    position: relative;
+    max-width: 47%;
+    flex: 0 0 47%;
+    height: calc(100% - 84px);
+    background: #ffffff;
+    border-radius: 41px;
+}
+
+.form::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 84px);
+    border-radius: 41px;
+    background: #ffffff;
+    opacity: 0.48;
+    z-index: 1;
+}
+
+.form::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 46px);
+    border-radius: 41px;
+    background: #ffffff;
+    opacity: 0.73;
+    z-index: 2;
+}
+
+/*FORM TITLE*/
+.form__title {
+    margin: 87px 0 50px 0;
+}
+
+.form__title_header {
+    margin: 0;
+    margin-bottom: 22px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0.4727272093296051px;
+    text-align: center;
+}
+
+.form__title_description {
+    margin: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3999998867511749px;
+    text-align: center;
+    color: #808080;
+}
+
+/*INPUTS*/
+.form__inputs {
+    padding: 0 70px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 55px;
+    padding-left: 45px;
+    background: #F0F0F0;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 42.5px;
+    outline: 0;
+}
+
+.form__input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.315151px;
+    color: #A0A0A0;
+}
+.form__input::-ms-input-placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.315151px;
+    color: #A0A0A0;
+}
+.form__input:-ms-input-placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.315151px;
+    color: #A0A0A0;
+}
+.form__input_email {
+    margin-bottom: 22px;
+}
+
+.form__input_password {
+    margin-bottom: 31px;
+}
+
+.form__input_submit {
+    position: relative;
+    padding-left: 0;
+    background: linear-gradient(90deg, #6ED4FF 34.25%, #8FFFA3 96.88%);
+    mix-blend-mode: normal;
+    opacity: 0.79;
+    border-radius: 27.5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 4.2px;
+    text-align: center;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.form__input_submit::after {
+    content: url("../../img/arrow.png");
+    position: absolute;
+    width: 15px;
+    height: 26px;
+    top: 50%;
+    right: 26px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.form__input_alert{
+    display: none;
+    margin-top: -20px;
+    margin-bottom: 22px;
+    font-size: 10px;
+    color: #ff0000;
+    font-weight: 700;
+    text-align: center;
+}
+.form__input_alert[data-class]{
+    display: block;
+
+}
+/*CONTINUE DIVIDER*/
+.continue-divider__text {
+    margin: 31px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.531818px;
+    color: #8B8B8B;
+    text-align: center;
+}
+
+/*SOCIAL LOGIN*/
+.form__socialLogin {
+    padding: 0 70px;
+}
+
+.form__socialLogin_button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    padding: 0 39px;
+    border-radius: 27.5px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.form__socialLogin_button_facebook {
+    background: linear-gradient(270deg, #3FA3E8 11.18%, #277EBB 63.9%);
+}
+
+.form__socialLogin_button_facebook .form__socialLogin_icon {
+    margin-right: 32px;
+    margin-left: 6px;
+}
+
+.form__socialLogin_button_twitter {
+    margin-bottom: 22px;
+    background: linear-gradient(270deg, #67E4FE 0%, #35ABD3 52.4%);
+}
+
+.form__socialLogin_button_twitter .form__socialLogin_icon {
+    margin-right: 25px;
+}
+.form__inner{
+    position: relative;
+    z-index: 3;
+}

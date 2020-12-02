@@ -1,0 +1,94 @@
+@media all and (max-width: 1260px){
+    .content{
+        width: 1024px;
+    }
+}
+@media all and (max-width: 1024px){
+    .content{
+        width: 969px;
+    }
+}
+@media all and (max-width: 969px){
+    .content{
+        width: 95%;
+        flex-wrap: wrap;
+    }
+    .title, .form{
+        max-width: 100%;
+        flex: 0 0 100%;
+        height: auto;
+    }
+    .form{
+        padding-bottom: 30px;
+    }
+    .form::before, .form::after{
+        display: none;
+    }
+    .shopping-card__img {
+        width: 100px;
+        height: 100px;
+    }
+    .shopping-card {
+        right: 70px;
+        top: 0;
+    }
+    .title__text-block {
+        top: 0;
+    }
+    .form__title {
+        margin: 30px 0 30px 0;
+    }
+    .title__squares{
+        display: none;
+    }
+    .title__header {
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width: 768px){
+    .title__header, .form__title_header  {
+        margin-bottom: 10px;
+        font-size: 45px;
+    }
+    .title__description {
+        margin: 0;
+        font-size: 20px;
+    }
+    .shopping-card {
+        right: 20px;
+        top: -35px;
+        opacity: .4;
+    }
+    .title {
+        overflow: visible;
+    }
+}
+@media all and (max-width: 470px){
+    .title__text-block {
+        margin-left: 0;
+        text-align: center;
+    }
+    .form__socialLogin,.form__inputs {
+        padding: 0 25px;
+    }
+    .title__header{
+        line-height: 35px
+    }
+    .title__header, .form__title_header  {
+         font-size: 35px;
+     }
+    .form__title_description, .title__description    {
+        font-size: 17px;
+    }
+
+}
+@media all and (max-width: 390px){
+    .form__socialLogin_button {
+        padding: 0 25px;
+        font-size: 13px;
+        letter-spacing: .7px;
+    }
+    .form__input {
+        padding-left: 20px;
+    }
+}
